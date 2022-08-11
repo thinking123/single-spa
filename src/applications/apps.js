@@ -22,7 +22,7 @@ import {
 import { formatErrorMessage } from "./app-errors.js";
 import { isInBrowser } from "../utils/runtime-environment.js";
 import { assign } from "../utils/assign";
-
+// 保存注册的 app
 const apps = [];
 
 export function getAppChanges() {
